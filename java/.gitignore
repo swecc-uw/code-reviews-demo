@@ -1,0 +1,10 @@
+# java gitignore
+bin/
+target/
+*.class
+*.war
+*.ear
+*.jar
+*.zip
+*.tar.gz
+*.rar
