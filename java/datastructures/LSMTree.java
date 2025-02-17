@@ -3,13 +3,15 @@ package datastructures;
 import java.util.*;
 import java.util.concurrent.ConcurrentSkipListMap;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class LSMTree<K extends Comparable<K>, V> {
   private final int maxMemTableSize;
   private final int maxLevels;
   private final List<SortedMap<K, V>> levels;
-  private ConcurrentSkipListMap<K, V> memTable;
+  private volatile ConcurrentSkipListMap<K, V> memTable;
   private final AtomicInteger memTableSize;
+  private final ReentrantReadWriteLock levelsLock;
 
   public LSMTree(int maxMemTableSize, int maxLevels) {
     this.maxMemTableSize = maxMemTableSize;
@@ -20,36 +22,55 @@ public class LSMTree<K extends Comparable<K>, V> {
     }
     this.memTable = new ConcurrentSkipListMap<>();
     this.memTableSize = new AtomicInteger(0);
+    this.levelsLock = new ReentrantReadWriteLock();
   }
 
   public void put(K key, V value) {
-    memTable.put(key, value);
-    if (memTableSize.incrementAndGet() >= maxMemTableSize) {
+    V oldValue = memTable.put(key, value);
+    if (oldValue == null && memTableSize.incrementAndGet() >= maxMemTableSize) {
       flushMemTable();
     }
   }
 
   public V get(K key) {
     V value = memTable.get(key);
-    if (value != null)
+    if (value != null) {
       return value;
-
-    for (SortedMap<K, V> level : levels) {
-      value = level.get(key);
-      if (value != null)
-        return value;
     }
-    return null;
+
+    levelsLock.readLock().lock();
+    try {
+      for (SortedMap<K, V> level : levels) {
+        value = level.get(key);
+        if (value != null) {
+          return value;
+        }
+      }
+      return null;
+    } finally {
+      levelsLock.readLock().unlock();
+    }
   }
 
-  private synchronized void flushMemTable() {
-    SortedMap<K, V> newLevel = new TreeMap<>(memTable);
-    levels.add(0, newLevel);
-    memTable = new ConcurrentSkipListMap<>();
-    memTableSize.set(0);
+  private void flushMemTable() {
+    levelsLock.writeLock().lock();
+    try {
+      if (memTableSize.get() < maxMemTableSize) {
+        return;
+      }
 
-    if (levels.size() > maxLevels) {
-      compactLevels();
+      TreeMap<K, V> newLevel = new TreeMap<>(memTable);
+
+      memTable = new ConcurrentSkipListMap<>();
+      memTableSize.set(0);
+
+      levels.add(0, newLevel);
+
+      if (levels.size() > maxLevels) {
+        compactLevels();
+      }
+    } finally {
+      levelsLock.writeLock().unlock();
     }
   }
 
@@ -57,16 +78,19 @@ public class LSMTree<K extends Comparable<K>, V> {
     SortedMap<K, V> lastLevel = levels.remove(levels.size() - 1);
     SortedMap<K, V> secondLastLevel = levels.remove(levels.size() - 1);
 
-    SortedMap<K, V> mergedLevel = new TreeMap<>(lastLevel);
-    mergedLevel.putAll(secondLastLevel);
-
-    levels.add(mergedLevel);
+    if (lastLevel.size() < secondLastLevel.size()) {
+      secondLastLevel.putAll(lastLevel);
+      levels.add(secondLastLevel);
+    } else {
+      lastLevel.putAll(secondLastLevel);
+      levels.add(lastLevel);
+    }
   }
 
   /*
    * stress test, last run on MacBook Pro 2022
    * Starting writes...
-   * Time for 1000000 write operations: 7790.20 ms
+   * Time for 1000000 write operations: 491.44 ms
    *
    * Final sizes:
    * MemTable size: 0
@@ -78,7 +102,7 @@ public class LSMTree<K extends Comparable<K>, V> {
    *
    * Starting reads...
    *
-   * Time for 100000 read operations: 112.41 ms
+   * Time for 100000 read operations: 114.74 ms
    * Read hit rate: 100.00%
    */
   public static void main(String[] args) {
