@@ -1,4 +1,5 @@
 package datastructures;
+
 import java.util.*;
 import java.util.concurrent.ConcurrentSkipListMap;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -64,43 +65,69 @@ public class LSMTree<K extends Comparable<K>, V> {
 
   /*
    * stress test, last run on MacBook Pro 2022
-   * Time for 1000000 write operations: 6243.41 ms
-   * Time for 100000 read operations: 130.64 ms
-   * Read hit rate: 63.16%
+   * Starting writes...
+   * Time for 1000000 write operations: 7790.20 ms
+   *
+   * Final sizes:
+   * MemTable size: 0
+   * Level 0 size: 1000
+   * Level 1 size: 1000
+   * Level 2 size: 1000
+   * Level 3 size: 1000
+   * Level 4 size: 996000
+   *
+   * Starting reads...
+   *
+   * Time for 100000 read operations: 112.41 ms
+   * Read hit rate: 100.00%
    */
   public static void main(String[] args) {
     LSMTree<Integer, String> lsmTree = new LSMTree<>(1000, 5);
     int numOperations = 1_000_000;
-    Random random = new Random();
+    Map<Integer, String> verificationMap = new HashMap<>();
 
-    // preallocate value strings
-    String[] values = new String[numOperations];
-    for (int i = 0; i < numOperations; i++) {
-      values[i] = "value" + i;
-    }
-
-    // write operations
+    System.out.println("Starting writes...");
     long startTime = System.nanoTime();
     for (int i = 0; i < numOperations; i++) {
-      int key = random.nextInt(numOperations);
-      String value = values[key];
-      lsmTree.put(key, value);
+      String value = "value" + i;
+      lsmTree.put(i, value);
+      verificationMap.put(i, value);
     }
     long endTime = System.nanoTime();
-    System.out.printf("Time for %d write operations: %.2f ms%n", numOperations, (endTime - startTime) / 1e6);
+    System.out.printf("Time for %d write operations: %.2f ms%n",
+        numOperations, (endTime - startTime) / 1e6);
 
-    // read operations
+    System.out.println("\nFinal sizes:");
+    System.out.printf("MemTable size: %d%n", lsmTree.memTable.size());
+    for (int i = 0; i < lsmTree.levels.size(); i++) {
+      System.out.printf("Level %d size: %d%n", i, lsmTree.levels.get(i).size());
+    }
+
+    System.out.println("\nStarting reads...");
     int numReads = 100_000;
     int found = 0;
+    int missed = 0;
     startTime = System.nanoTime();
+    Random random = new Random(42);
+
     for (int i = 0; i < numReads; i++) {
       int key = random.nextInt(numOperations);
-      if (lsmTree.get(key) != null) {
+      String expected = verificationMap.get(key);
+      String actual = lsmTree.get(key);
+
+      if (actual != null && actual.equals(expected)) {
         found++;
+      } else {
+        missed++;
+        if (missed <= 10) {
+          System.out.printf("Miss: key=%d, expected=%s, actual=%s%n",
+              key, expected, actual);
+        }
       }
     }
     endTime = System.nanoTime();
-    System.out.printf("Time for %d read operations: %.2f ms%n", numReads, (endTime - startTime) / 1e6);
+    System.out.printf("\nTime for %d read operations: %.2f ms%n",
+        numReads, (endTime - startTime) / 1e6);
     System.out.printf("Read hit rate: %.2f%%%n", (found * 100.0) / numReads);
   }
 }
