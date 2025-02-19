@@ -14,6 +14,45 @@ public final class StreamUtils {
     } // Prevent instantiation
 
     /**
+     * Creates a stream of batches from the input stream.
+     * Each batch contains 'size' elements, except the last one which may be
+     * smaller.
+     * The resulting stream may contain empty lists if the input stream is empty.
+     *
+     * @param <T>    The type of elements in the stream
+     * @param stream The input stream
+     * @param size   The size of each window, must be positive
+     * @return A stream of overlapping windows
+     */
+    public static <T> Stream<List<T>> batched(Stream<T> stream, int size, boolean parallel) {
+        Iterator<T> itr = stream.iterator();
+
+        if (size < 1)
+            throw new IllegalArgumentException("Window size must be positive");
+
+        return StreamSupport.stream(Spliterators.spliteratorUnknownSize(
+                new Iterator<>() {
+                    @Override
+                    public boolean hasNext() { return itr.hasNext(); }
+
+                    @Override
+                    public List<T> next() {
+                        List<T> window = new ArrayList<>(size);
+                        for (int i = 0; i < size; i++)
+                            window.add(itr.next());
+                        return window;
+                    }
+                }, Spliterator.ORDERED), parallel);
+    }
+
+    public static <T> Stream<List<T>> batched(Stream<T> stream, int size) {
+        if (size < 1)
+            throw new IllegalArgumentException("Window size must be positive");
+
+        return batched(stream, size, false);
+    }
+
+    /**
      * Creates a stream of pairs from two lists of equal size. Each pair contains
      * corresponding elements from both lists at the same index.
      *
