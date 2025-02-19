@@ -1,0 +1,3881 @@
+{
+  "course_data": [
+      {
+          "course_id": "CSE 110",
+          "course_title": "Computer Science Principles",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 112",
+          "course_title": "Advanced Placement (AP) Computer Science A",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 121",
+          "course_title": "Introduction to Computer Programming I",
+          "postreqs": [
+              {
+                  "course_id": "BIOEN 217"
+              },
+              {
+                  "course_id": "BIOEN 316"
+              },
+              {
+                  "course_id": "BIOEN 325"
+              },
+              {
+                  "course_id": "BIOEN 437"
+              },
+              {
+                  "course_id": "BIOL 468"
+              },
+              {
+                  "course_id": "E E 271"
+              },
+              {
+                  "course_id": "HCDE 310"
+              },
+              {
+                  "course_id": "HCDE 410"
+              },
+              {
+                  "course_id": "IND E 310"
+              },
+              {
+                  "course_id": "MATH 381"
+              },
+              {
+                  "course_id": "B ENGR 310"
+              }
+          ],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 122",
+          "course_title": "Introduction to Computer Programming II",
+          "postreqs": [
+              {
+                  "course_id": "BIOEN 217"
+              },
+              {
+                  "course_id": "BIOEN 316"
+              },
+              {
+                  "course_id": "BIOEN 325"
+              },
+              {
+                  "course_id": "BIOEN 437"
+              },
+              {
+                  "course_id": "BIOEN 484"
+              },
+              {
+                  "course_id": "BIOL 468"
+              },
+              {
+                  "course_id": "CSE 154"
+              },
+              {
+                  "course_id": "CSE 163"
+              },
+              {
+                  "course_id": "CSE 391"
+              },
+              {
+                  "course_id": "E E 201"
+              },
+              {
+                  "course_id": "E E 241"
+              },
+              {
+                  "course_id": "E E 271"
+              },
+              {
+                  "course_id": "E E 419"
+              },
+              {
+                  "course_id": "HCDE 310"
+              },
+              {
+                  "course_id": "HCDE 410"
+              },
+              {
+                  "course_id": "IND E 310"
+              },
+              {
+                  "course_id": "INFO 314"
+              },
+              {
+                  "course_id": "INFO 370"
+              },
+              {
+                  "course_id": "MATH 381"
+              },
+              {
+                  "course_id": "CSS 123"
+              },
+              {
+                  "course_id": "CSS 173"
+              },
+              {
+                  "course_id": "STMATH 381"
+              },
+              {
+                  "course_id": "STMATH 405"
+              },
+              {
+                  "course_id": "STMATH 407"
+              },
+              {
+                  "course_id": "TCES 230"
+              }
+          ],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 123",
+          "course_title": "Introduction to Computer Programming III",
+          "postreqs": [
+              {
+                  "course_id": "BIOEN 217"
+              },
+              {
+                  "course_id": "BIOEN 316"
+              },
+              {
+                  "course_id": "BIOEN 325"
+              },
+              {
+                  "course_id": "BIOEN 437"
+              },
+              {
+                  "course_id": "BIOL 468"
+              },
+              {
+                  "course_id": "CSE 154"
+              },
+              {
+                  "course_id": "CSE 163"
+              },
+              {
+                  "course_id": "CSE 311"
+              },
+              {
+                  "course_id": "CSE 331"
+              },
+              {
+                  "course_id": "CSE 340"
+              },
+              {
+                  "course_id": "CSE 341"
+              },
+              {
+                  "course_id": "CSE 351"
+              },
+              {
+                  "course_id": "CSE 373"
+              },
+              {
+                  "course_id": "CSE 374"
+              },
+              {
+                  "course_id": "CSE 391"
+              },
+              {
+                  "course_id": "CSE 412"
+              },
+              {
+                  "course_id": "CSE 414"
+              },
+              {
+                  "course_id": "CSE 416"
+              },
+              {
+                  "course_id": "CSE 469"
+              },
+              {
+                  "course_id": "CSE 474"
+              },
+              {
+                  "course_id": "E E 201"
+              },
+              {
+                  "course_id": "E E 241"
+              },
+              {
+                  "course_id": "E E 271"
+              },
+              {
+                  "course_id": "E E 321"
+              },
+              {
+                  "course_id": "E E 419"
+              },
+              {
+                  "course_id": "E E 469"
+              },
+              {
+                  "course_id": "E E 474"
+              },
+              {
+                  "course_id": "HCDE 310"
+              },
+              {
+                  "course_id": "HCDE 410"
+              },
+              {
+                  "course_id": "INFO 314"
+              },
+              {
+                  "course_id": "INFO 340"
+              },
+              {
+                  "course_id": "INFO 370"
+              },
+              {
+                  "course_id": "INFO 441"
+              },
+              {
+                  "course_id": "INFO 443"
+              },
+              {
+                  "course_id": "INFO 448"
+              },
+              {
+                  "course_id": "INFO 449"
+              },
+              {
+                  "course_id": "INFO 474"
+              },
+              {
+                  "course_id": "MATH 381"
+              },
+              {
+                  "course_id": "STAT 416"
+              },
+              {
+                  "course_id": "STAT 451"
+              },
+              {
+                  "course_id": "TCES 203"
+              },
+              {
+                  "course_id": "TCES 450"
+              }
+          ],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 131",
+          "course_title": "Science and Art of Digital Photography",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 142",
+          "course_title": "Computer Programming I",
+          "postreqs": [
+              {
+                  "course_id": "BIOEN 217"
+              },
+              {
+                  "course_id": "BIOEN 316"
+              },
+              {
+                  "course_id": "BIOEN 325"
+              },
+              {
+                  "course_id": "BIOEN 420"
+              },
+              {
+                  "course_id": "BIOEN 437"
+              },
+              {
+                  "course_id": "BIOL 468"
+              },
+              {
+                  "course_id": "CHEM E 450"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "CSE 154"
+              },
+              {
+                  "course_id": "CSE 163"
+              },
+              {
+                  "course_id": "E E 201"
+              },
+              {
+                  "course_id": "E E 241"
+              },
+              {
+                  "course_id": "E E 271"
+              },
+              {
+                  "course_id": "E E 419"
+              },
+              {
+                  "course_id": "HCDE 310"
+              },
+              {
+                  "course_id": "HCDE 410"
+              },
+              {
+                  "course_id": "IND E 310"
+              },
+              {
+                  "course_id": "INFO 314"
+              },
+              {
+                  "course_id": "INFO 370"
+              },
+              {
+                  "course_id": "MATH 381"
+              },
+              {
+                  "course_id": "MSE 476"
+              },
+              {
+                  "course_id": "B EE 235"
+              },
+              {
+                  "course_id": "B EE 271"
+              },
+              {
+                  "course_id": "B ENGR 310"
+              },
+              {
+                  "course_id": "CSS 123"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "CSS 173"
+              },
+              {
+                  "course_id": "CSS 305"
+              },
+              {
+                  "course_id": "CSS 337"
+              },
+              {
+                  "course_id": "CSSSKL 123"
+              },
+              {
+                  "course_id": "CSSSKL 143"
+              },
+              {
+                  "course_id": "STMATH 381"
+              },
+              {
+                  "course_id": "STMATH 405"
+              },
+              {
+                  "course_id": "STMATH 407"
+              },
+              {
+                  "course_id": "TCES 230"
+              },
+              {
+                  "course_id": "TCSS 143"
+              }
+          ],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 143",
+          "course_title": "Computer Programming II",
+          "postreqs": [
+              {
+                  "course_id": "CSE 154"
+              },
+              {
+                  "course_id": "CSE 163"
+              },
+              {
+                  "course_id": "CSE 303"
+              },
+              {
+                  "course_id": "CSE 311"
+              },
+              {
+                  "course_id": "CSE 321"
+              },
+              {
+                  "course_id": "CSE 331"
+              },
+              {
+                  "course_id": "CSE 340"
+              },
+              {
+                  "course_id": "CSE 341"
+              },
+              {
+                  "course_id": "CSE 351"
+              },
+              {
+                  "course_id": "CSE 373"
+              },
+              {
+                  "course_id": "CSE 374"
+              },
+              {
+                  "course_id": "CSE 378"
+              },
+              {
+                  "course_id": "CSE 391"
+              },
+              {
+                  "course_id": "CSE 412"
+              },
+              {
+                  "course_id": "CSE 414"
+              },
+              {
+                  "course_id": "CSE 416"
+              },
+              {
+                  "course_id": "CSE 469"
+              },
+              {
+                  "course_id": "CSE 474"
+              },
+              {
+                  "course_id": "E E 201"
+              },
+              {
+                  "course_id": "E E 241"
+              },
+              {
+                  "course_id": "E E 271"
+              },
+              {
+                  "course_id": "E E 321"
+              },
+              {
+                  "course_id": "E E 419"
+              },
+              {
+                  "course_id": "E E 469"
+              },
+              {
+                  "course_id": "E E 474"
+              },
+              {
+                  "course_id": "E E 541"
+              },
+              {
+                  "course_id": "HCDE 410"
+              },
+              {
+                  "course_id": "INFO 314"
+              },
+              {
+                  "course_id": "INFO 340"
+              },
+              {
+                  "course_id": "INFO 370"
+              },
+              {
+                  "course_id": "INFO 441"
+              },
+              {
+                  "course_id": "INFO 443"
+              },
+              {
+                  "course_id": "INFO 448"
+              },
+              {
+                  "course_id": "INFO 449"
+              },
+              {
+                  "course_id": "INFO 474"
+              },
+              {
+                  "course_id": "MATH 381"
+              },
+              {
+                  "course_id": "STAT 416"
+              },
+              {
+                  "course_id": "B BUS 489"
+              },
+              {
+                  "course_id": "CSS 340"
+              },
+              {
+                  "course_id": "CSS 342"
+              },
+              {
+                  "course_id": "CSS 360"
+              },
+              {
+                  "course_id": "CSS 455"
+              },
+              {
+                  "course_id": "TCES 203"
+              },
+              {
+                  "course_id": "TCES 450"
+              },
+              {
+                  "course_id": "TCSS 241"
+              },
+              {
+                  "course_id": "TCSS 242"
+              },
+              {
+                  "course_id": "TCSS 243"
+              },
+              {
+                  "course_id": "TCSS 244"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "ENGR 142"
+              },
+              {
+                  "course_id": "CSE 142"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 154",
+          "course_title": "Web Programming",
+          "postreqs": [
+              {
+                  "course_id": "INFO 340"
+              },
+              {
+                  "course_id": "INFO 441"
+              },
+              {
+                  "course_id": "INFO 442"
+              },
+              {
+                  "course_id": "INFO 474"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 122"
+              },
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 142"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              },
+              {
+                  "course_id": "CSE 160"
+              },
+              {
+                  "course_id": "CSE 163"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 160",
+          "course_title": "Data Programming",
+          "postreqs": [
+              {
+                  "course_id": "BIOEN 217"
+              },
+              {
+                  "course_id": "BIOEN 316"
+              },
+              {
+                  "course_id": "BIOEN 325"
+              },
+              {
+                  "course_id": "BIOEN 437"
+              },
+              {
+                  "course_id": "BIOEN 484"
+              },
+              {
+                  "course_id": "BIOL 468"
+              },
+              {
+                  "course_id": "CHEM 441"
+              },
+              {
+                  "course_id": "CHEM E 450"
+              },
+              {
+                  "course_id": "CSE 154"
+              },
+              {
+                  "course_id": "CSE 163"
+              },
+              {
+                  "course_id": "CSE 416"
+              },
+              {
+                  "course_id": "E E 241"
+              },
+              {
+                  "course_id": "ESS 469"
+              },
+              {
+                  "course_id": "HCDE 310"
+              },
+              {
+                  "course_id": "HCDE 410"
+              },
+              {
+                  "course_id": "INFO 370"
+              },
+              {
+                  "course_id": "INFO 376"
+              },
+              {
+                  "course_id": "PHYS 417"
+              },
+              {
+                  "course_id": "STAT 416"
+              }
+          ],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 163",
+          "course_title": "Intermediate Data Programming",
+          "postreqs": [
+              {
+                  "course_id": "CHEM 441"
+              },
+              {
+                  "course_id": "CSE 154"
+              },
+              {
+                  "course_id": "CSE 412"
+              },
+              {
+                  "course_id": "CSE 414"
+              },
+              {
+                  "course_id": "CSE 416"
+              },
+              {
+                  "course_id": "E E 242"
+              },
+              {
+                  "course_id": "E E 418"
+              },
+              {
+                  "course_id": "E E 445"
+              },
+              {
+                  "course_id": "E E 465"
+              },
+              {
+                  "course_id": "E E 467"
+              },
+              {
+                  "course_id": "E E 468"
+              },
+              {
+                  "course_id": "ESS 469"
+              },
+              {
+                  "course_id": "HCDE 410"
+              },
+              {
+                  "course_id": "INFO 340"
+              },
+              {
+                  "course_id": "INFO 370"
+              },
+              {
+                  "course_id": "INFO 376"
+              },
+              {
+                  "course_id": "INFO 441"
+              },
+              {
+                  "course_id": "INFO 443"
+              },
+              {
+                  "course_id": "INFO 474"
+              },
+              {
+                  "course_id": "STAT 416"
+              },
+              {
+                  "course_id": "STAT 451"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 122"
+              },
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 142"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              },
+              {
+                  "course_id": "CSE 160"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 180",
+          "course_title": "Introduction to Data Science",
+          "postreqs": [
+              {
+                  "course_id": "BIOL 468"
+              },
+              {
+                  "course_id": "PHYS 417"
+              }
+          ],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 190",
+          "course_title": "Current Topics in Computer Science and Engineering",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 300",
+          "course_title": "CSE Internship Education",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 301",
+          "course_title": "CSE Internship Education",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 303",
+          "course_title": "CONCEPTS AND TOOLS FOR SOFTWARE DEVELOPMENT",
+          "postreqs": [
+              {
+                  "course_id": "CSE 378"
+              },
+              {
+                  "course_id": "CSE 461"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 143"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 311",
+          "course_title": "Foundations of Computing I",
+          "postreqs": [
+              {
+                  "course_id": "BIOEN 423"
+              },
+              {
+                  "course_id": "BIOEN 523"
+              },
+              {
+                  "course_id": "CHEM E 476"
+              },
+              {
+                  "course_id": "CHEM E 576"
+              },
+              {
+                  "course_id": "CSE 312"
+              },
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 344"
+              },
+              {
+                  "course_id": "CSE 352"
+              },
+              {
+                  "course_id": "CSE 369"
+              },
+              {
+                  "course_id": "CSE 472"
+              },
+              {
+                  "course_id": "CSE 486"
+              },
+              {
+                  "course_id": "CSE 586"
+              },
+              {
+                  "course_id": "E E 423"
+              },
+              {
+                  "course_id": "E E 523"
+              },
+              {
+                  "course_id": "LING 472"
+              },
+              {
+                  "course_id": "MOLENG 525"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "MATH 126"
+              },
+              {
+                  "course_id": "STMATH 126"
+              },
+              {
+                  "course_id": "TMATH 126"
+              },
+              {
+                  "course_id": "MATH 136"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 312",
+          "course_title": "Foundations of Computing II",
+          "postreqs": [
+              {
+                  "course_id": "CSE 421"
+              },
+              {
+                  "course_id": "CSE 422"
+              },
+              {
+                  "course_id": "CSE 427"
+              },
+              {
+                  "course_id": "CSE 428"
+              },
+              {
+                  "course_id": "CSE 431"
+              },
+              {
+                  "course_id": "CSE 446"
+              },
+              {
+                  "course_id": "CSE 447"
+              },
+              {
+                  "course_id": "CSE 473"
+              },
+              {
+                  "course_id": "CSE 481"
+              },
+              {
+                  "course_id": "STAT 391"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 311"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 321",
+          "course_title": "DISCRETE STRUCTURES",
+          "postreqs": [
+              {
+                  "course_id": "CSE 322"
+              },
+              {
+                  "course_id": "CSE 326"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "MATH 126"
+              },
+              {
+                  "course_id": "MATH 129"
+              },
+              {
+                  "course_id": "MATH 136"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 322",
+          "course_title": "INTRODUCTION TO FORMAL MODELS IN COMPUTER SCIENCE",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 321"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 326",
+          "course_title": "Data Structures",
+          "postreqs": [
+              {
+                  "course_id": "CSE 461"
+              },
+              {
+                  "course_id": "LING 473"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 321"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 331",
+          "course_title": "Software Design and Implementation",
+          "postreqs": [
+              {
+                  "course_id": "CSE 403"
+              },
+              {
+                  "course_id": "CSE 428"
+              },
+              {
+                  "course_id": "CSE 454"
+              },
+              {
+                  "course_id": "CSE 481"
+              },
+              {
+                  "course_id": "CSE 482"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "CSE 123"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 332",
+          "course_title": "Data Structures and Parallelism",
+          "postreqs": [
+              {
+                  "course_id": "CSE 401"
+              },
+              {
+                  "course_id": "CSE 402"
+              },
+              {
+                  "course_id": "CSE 403"
+              },
+              {
+                  "course_id": "CSE 421"
+              },
+              {
+                  "course_id": "CSE 422"
+              },
+              {
+                  "course_id": "CSE 427"
+              },
+              {
+                  "course_id": "CSE 428"
+              },
+              {
+                  "course_id": "CSE 440"
+              },
+              {
+                  "course_id": "CSE 442"
+              },
+              {
+                  "course_id": "CSE 444"
+              },
+              {
+                  "course_id": "CSE 446"
+              },
+              {
+                  "course_id": "CSE 447"
+              },
+              {
+                  "course_id": "CSE 451"
+              },
+              {
+                  "course_id": "CSE 452"
+              },
+              {
+                  "course_id": "CSE 453"
+              },
+              {
+                  "course_id": "CSE 454"
+              },
+              {
+                  "course_id": "CSE 455"
+              },
+              {
+                  "course_id": "CSE 457"
+              },
+              {
+                  "course_id": "CSE 461"
+              },
+              {
+                  "course_id": "CSE 467"
+              },
+              {
+                  "course_id": "CSE 473"
+              },
+              {
+                  "course_id": "CSE 478"
+              },
+              {
+                  "course_id": "CSE 481"
+              },
+              {
+                  "course_id": "CSE 482"
+              },
+              {
+                  "course_id": "CSE 484"
+              },
+              {
+                  "course_id": "CSE M 552"
+              },
+              {
+                  "course_id": "CSE M 584"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 311"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 333",
+          "course_title": "Systems Programming",
+          "postreqs": [
+              {
+                  "course_id": "CSE 451"
+              },
+              {
+                  "course_id": "CSE 452"
+              },
+              {
+                  "course_id": "CSE 453"
+              },
+              {
+                  "course_id": "CSE 455"
+              },
+              {
+                  "course_id": "CSE 457"
+              },
+              {
+                  "course_id": "CSE 461"
+              },
+              {
+                  "course_id": "CSE 481"
+              },
+              {
+                  "course_id": "CSE M 552"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 351"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 340",
+          "course_title": "Interaction Programming",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              },
+              {
+                  "course_id": "CSE 123"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 341",
+          "course_title": "Programming Languages",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 344",
+          "course_title": "Introduction to Data Management",
+          "postreqs": [
+              {
+                  "course_id": "CSE 444"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 311"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 351",
+          "course_title": "The Hardware/Software Interface",
+          "postreqs": [
+              {
+                  "course_id": "CSE 333"
+              },
+              {
+                  "course_id": "CSE 352"
+              },
+              {
+                  "course_id": "CSE 401"
+              },
+              {
+                  "course_id": "CSE 402"
+              },
+              {
+                  "course_id": "CSE 451"
+              },
+              {
+                  "course_id": "CSE 454"
+              },
+              {
+                  "course_id": "CSE 481"
+              },
+              {
+                  "course_id": "CSE 482"
+              },
+              {
+                  "course_id": "CSE 484"
+              },
+              {
+                  "course_id": "CSE M 584"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 352",
+          "course_title": "Hardware Design and Implementation",
+          "postreqs": [
+              {
+                  "course_id": "CSE 454"
+              },
+              {
+                  "course_id": "CSE 467"
+              },
+              {
+                  "course_id": "CSE 468"
+              },
+              {
+                  "course_id": "CSE 482"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 311"
+              },
+              {
+                  "course_id": "CSE 351"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 369",
+          "course_title": "Introduction to Digital Design",
+          "postreqs": [
+              {
+                  "course_id": "CSE 371"
+              },
+              {
+                  "course_id": "CSE 469"
+              },
+              {
+                  "course_id": "CSE 475"
+              },
+              {
+                  "course_id": "CSE 481"
+              },
+              {
+                  "course_id": "E E 371"
+              },
+              {
+                  "course_id": "E E 469"
+              },
+              {
+                  "course_id": "E E 475"
+              },
+              {
+                  "course_id": "E E 476"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 311"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 370",
+          "course_title": "INTRODUCTION TO DIGITAL DESIGN",
+          "postreqs": [
+              {
+                  "course_id": "CSE 378"
+              },
+              {
+                  "course_id": "CSE 468"
+              },
+              {
+                  "course_id": "E E 541"
+              }
+          ],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 371",
+          "course_title": "Design of Digital Circuits and Systems",
+          "postreqs": [
+              {
+                  "course_id": "E E 525"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "E E 205"
+              },
+              {
+                  "course_id": "E E 215"
+              },
+              {
+                  "course_id": "E E 271"
+              },
+              {
+                  "course_id": "CSE 369"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 373",
+          "course_title": "Data Structures and Algorithms",
+          "postreqs": [
+              {
+                  "course_id": "CSE 410"
+              },
+              {
+                  "course_id": "CSE 413"
+              },
+              {
+                  "course_id": "CSE 415"
+              },
+              {
+                  "course_id": "CSE 417"
+              },
+              {
+                  "course_id": "E E 472"
+              },
+              {
+                  "course_id": "E E 479"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 374",
+          "course_title": "Intermediate Programming Concepts and Tools",
+          "postreqs": [
+              {
+                  "course_id": "E E 472"
+              },
+              {
+                  "course_id": "E E 479"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 378",
+          "course_title": "MACHINE ORGANIZATION AND ASSEMBLY LANGUAGE",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "CSE 370"
+              },
+              {
+                  "course_id": "CSE 303"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 390",
+          "course_title": "Special Topics in Computer Science and Engineering",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 391",
+          "course_title": "System and Software Tools",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 122"
+              },
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 143"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 399",
+          "course_title": "CSE Foreign Study",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 401",
+          "course_title": "Introduction to Compiler Construction",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 351"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 402",
+          "course_title": "Design and Implementation of Domain-Specific Languages",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 351"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 403",
+          "course_title": "Software Engineering",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 331"
+              },
+              {
+                  "course_id": "CSE 332"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 410",
+          "course_title": "Computer Systems",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 373"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 412",
+          "course_title": "Introduction to Data Visualization",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "CSE 163"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 413",
+          "course_title": "Programming Languages and Their Implementation",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 373"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 414",
+          "course_title": "Introduction to Database Systems",
+          "postreqs": [
+              {
+                  "course_id": "CSE 444"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "CSE 163"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 415",
+          "course_title": "Introduction to Artificial Intelligence",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 373"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 416",
+          "course_title": "Introduction to Machine Learning",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 160"
+              },
+              {
+                  "course_id": "CSE 163"
+              },
+              {
+                  "course_id": "STAT 311"
+              },
+              {
+                  "course_id": "STAT 390"
+              },
+              {
+                  "course_id": "MATH 390"
+              },
+              {
+                  "course_id": "STAT 391"
+              },
+              {
+                  "course_id": "IND E 315"
+              },
+              {
+                  "course_id": "Q SCI 381"
+              },
+              {
+                  "course_id": "STMATH 341"
+              },
+              {
+                  "course_id": "MATH 394"
+              },
+              {
+                  "course_id": "STAT 394"
+              },
+              {
+                  "course_id": "STAT 395"
+              },
+              {
+                  "course_id": "MATH 395"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 417",
+          "course_title": "Algorithms and Computational Complexity",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 373"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 421",
+          "course_title": "Introduction to Algorithms",
+          "postreqs": [
+              {
+                  "course_id": "MATH 462"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 312"
+              },
+              {
+                  "course_id": "CSE 332"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 422",
+          "course_title": "Toolkit for Modern Algorithms",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 312"
+              },
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "MATH 308"
+              },
+              {
+                  "course_id": "MATH 208"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 426",
+          "course_title": "Cryptography",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 427",
+          "course_title": "Computational Biology",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 312"
+              },
+              {
+                  "course_id": "CSE 332"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 428",
+          "course_title": "Computational Biology Capstone",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 331"
+              },
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 312"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 431",
+          "course_title": "Introduction to Theory of Computation",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 312"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 440",
+          "course_title": "Introduction to HCI: User Interface Design, Prototyping, and Evaluation",
+          "postreqs": [
+              {
+                  "course_id": "CSE 441"
+              },
+              {
+                  "course_id": "HCDE 418"
+              },
+              {
+                  "course_id": "INFO 464"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 441",
+          "course_title": "Advanced HCI: Advanced User Interface Design, Prototyping, and Evaluation",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 440"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 442",
+          "course_title": "Data Visualization",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 444",
+          "course_title": "Database Systems Internals",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 344"
+              },
+              {
+                  "course_id": "CSE 414"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 446",
+          "course_title": "Machine Learning",
+          "postreqs": [
+              {
+                  "course_id": "CSE 582"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "MATH 208"
+              },
+              {
+                  "course_id": "MATH 308"
+              },
+              {
+                  "course_id": "MATH 136"
+              },
+              {
+                  "course_id": "STAT 390"
+              },
+              {
+                  "course_id": "MATH 390"
+              },
+              {
+                  "course_id": "STAT 391"
+              },
+              {
+                  "course_id": "CSE 312"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 447",
+          "course_title": "Natural Language Processing",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 312"
+              },
+              {
+                  "course_id": "CSE 332"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 450",
+          "course_title": "Animation Production Seminar",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 451",
+          "course_title": "Introduction to Operating Systems",
+          "postreqs": [
+              {
+                  "course_id": "CSE 476"
+              },
+              {
+                  "course_id": "CSE 550"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 351"
+              },
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 333"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 452",
+          "course_title": "Introduction to Distributed Systems",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 333"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 453",
+          "course_title": "Datacenter Systems",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 333"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 454",
+          "course_title": "Advanced Internet and Web Services",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 351"
+              },
+              {
+                  "course_id": "CSE 331"
+              },
+              {
+                  "course_id": "CSE 352"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 455",
+          "course_title": "Computer Vision",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 333"
+              },
+              {
+                  "course_id": "CSE 332"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 456",
+          "course_title": "Story Design for Computer Animation",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 457",
+          "course_title": "Computer Graphics",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 333"
+              },
+              {
+                  "course_id": "CSE 332"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 458",
+          "course_title": "Computer Animation",
+          "postreqs": [
+              {
+                  "course_id": "CSE 459"
+              },
+              {
+                  "course_id": "CSE 460"
+              }
+          ],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 459",
+          "course_title": "Pre-Production for Collaborative Animation",
+          "postreqs": [
+              {
+                  "course_id": "CSE 460"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 458"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 460",
+          "course_title": "Animation Capstone",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 458"
+              },
+              {
+                  "course_id": "CSE 459"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 461",
+          "course_title": "Introduction to Computer-Communication Networks",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 326"
+              },
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 303"
+              },
+              {
+                  "course_id": "CSE 333"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 464",
+          "course_title": "Advanced Topics in Digital Animation",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 467",
+          "course_title": "Advanced Digital Design",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 352"
+              },
+              {
+                  "course_id": "CSE 332"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 468",
+          "course_title": "VERY LARGE SCALE INTEGRATION",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 370"
+              },
+              {
+                  "course_id": "CSE 352"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 469",
+          "course_title": "Computer Architecture I",
+          "postreqs": [
+              {
+                  "course_id": "CSE 470"
+              },
+              {
+                  "course_id": "E E 470"
+              },
+              {
+                  "course_id": "E E 477"
+              },
+              {
+                  "course_id": "E E 525"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "E E 271"
+              },
+              {
+                  "course_id": "CSE 369"
+              },
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 470",
+          "course_title": "Computer Architecture II",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 469"
+              },
+              {
+                  "course_id": "E E 469"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 472",
+          "course_title": "Introduction to Computational Linguistics",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "LING 200"
+              },
+              {
+                  "course_id": "LING 400"
+              },
+              {
+                  "course_id": "LING 461"
+              },
+              {
+                  "course_id": "CSE 311"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 473",
+          "course_title": "Introduction to Artificial Intelligence",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 312"
+              },
+              {
+                  "course_id": "CSE 332"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 474",
+          "course_title": "Introduction to Embedded Systems",
+          "postreqs": [
+              {
+                  "course_id": "CSE 475"
+              },
+              {
+                  "course_id": "E E 475"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "CSE 123"
+              },
+              {
+                  "course_id": "CSE 143"
+              },
+              {
+                  "course_id": "CSS 143"
+              },
+              {
+                  "course_id": "TCSS 143"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 475",
+          "course_title": "Embedded Systems Capstone",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "E E 271"
+              },
+              {
+                  "course_id": "CSE 369"
+              },
+              {
+                  "course_id": "E E 472"
+              },
+              {
+                  "course_id": "CSE 474"
+              },
+              {
+                  "course_id": "E E 474"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 476",
+          "course_title": "EMBEDDED SYSTEM DESIGN",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 451"
+              },
+              {
+                  "course_id": "CSE 466"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 478",
+          "course_title": "Autonomous Robotics",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 480",
+          "course_title": "Computer Ethics Seminar",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 481",
+          "course_title": "Capstone Software Design",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 312"
+              },
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 351"
+              },
+              {
+                  "course_id": "CSE 331"
+              },
+              {
+                  "course_id": "CSE 333"
+              },
+              {
+                  "course_id": "CSE 369"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 482",
+          "course_title": "Capstone Software Design to Empower Underserved Populations",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 351"
+              },
+              {
+                  "course_id": "CSE 331"
+              },
+              {
+                  "course_id": "CSE 352"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 484",
+          "course_title": "Computer Security",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "CSE 332"
+              },
+              {
+                  "course_id": "CSE 351"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 486",
+          "course_title": "Introduction to Synthetic Biology",
+          "postreqs": [
+              {
+                  "course_id": "BIOEN 424"
+              },
+              {
+                  "course_id": "BIOEN 425"
+              },
+              {
+                  "course_id": "CHEM E 477"
+              },
+              {
+                  "course_id": "CHEM E 478"
+              },
+              {
+                  "course_id": "CSE 487"
+              },
+              {
+                  "course_id": "CSE 488"
+              },
+              {
+                  "course_id": "E E 424"
+              },
+              {
+                  "course_id": "E E 425"
+              }
+          ],
+          "prereqs": [
+              {
+                  "course_id": "MATH 136"
+              },
+              {
+                  "course_id": "MATH 307"
+              },
+              {
+                  "course_id": "MATH 207"
+              },
+              {
+                  "course_id": "AMATH 351"
+              },
+              {
+                  "course_id": "CSE 311"
+              },
+              {
+                  "course_id": "MATH 208"
+              },
+              {
+                  "course_id": "MATH 308"
+              },
+              {
+                  "course_id": "AMATH 352"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 487",
+          "course_title": "Advanced Systems and Synthetic Biology",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "E E 423"
+              },
+              {
+                  "course_id": "BIOEN 423"
+              },
+              {
+                  "course_id": "CHEM E 476"
+              },
+              {
+                  "course_id": "CSE 486"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 488",
+          "course_title": "Laboratory Methods in Synthetic Biology",
+          "postreqs": [],
+          "prereqs": [
+              {
+                  "course_id": "BIOEN 423"
+              },
+              {
+                  "course_id": "E E 423"
+              },
+              {
+                  "course_id": "CHEM E 476"
+              },
+              {
+                  "course_id": "CSE 486"
+              },
+              {
+                  "course_id": "CHEM 142"
+              },
+              {
+                  "course_id": "CHEM 143"
+              },
+              {
+                  "course_id": "CHEM 145"
+              },
+              {
+                  "course_id": "B CHEM 142"
+              }
+          ]
+      },
+      {
+          "course_id": "CSE 490",
+          "course_title": "Special Topics in Computer Science and Engineering",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 491",
+          "course_title": "Data Science and Society Seminar",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 492",
+          "course_title": "Undergraduate Seminar",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 493",
+          "course_title": "Advanced Special Topics in Computer Science and Engineering",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 495",
+          "course_title": "Project Practicum",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 496",
+          "course_title": "Honors Undergraduate Research",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 497",
+          "course_title": "Undergraduate Research Seminar",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 498",
+          "course_title": "Undergraduate Research",
+          "postreqs": [],
+          "prereqs": []
+      },
+      {
+          "course_id": "CSE 499",
+          "course_title": "Reading and Research",
+          "postreqs": [],
+          "prereqs": []
+      }
+  ],
+  "prereq_graph": {
+      "x": {
+          "edges": {
+              "from": {
+                  "2497": "CSE 142",
+                  "2498": "CSE 122",
+                  "2499": "CSE 123",
+                  "2500": "CSE 142",
+                  "2501": "CSE 143",
+                  "2504": "CSE 160",
+                  "2505": "CSE 163",
+                  "2506": "CSE 122",
+                  "2507": "CSE 123",
+                  "2508": "CSE 142",
+                  "2509": "CSE 143",
+                  "2512": "CSE 160",
+                  "2514": "CSE 123",
+                  "2515": "CSE 143",
+                  "2522": "CSE 311",
+                  "2529": "CSE 143",
+                  "2532": "CSE 123",
+                  "2533": "CSE 311",
+                  "2534": "CSE 351",
+                  "2535": "CSE 143",
+                  "2538": "CSE 123",
+                  "2539": "CSE 123",
+                  "2540": "CSE 143",
+                  "2543": "CSE 311",
+                  "2544": "CSE 123",
+                  "2545": "CSE 143",
+                  "2548": "CSE 311",
+                  "2549": "CSE 351",
+                  "2550": "CSE 311",
+                  "2554": "CSE 369",
+                  "2555": "CSE 123",
+                  "2556": "CSE 143",
+                  "2559": "CSE 123",
+                  "2560": "CSE 143",
+                  "2566": "CSE 122",
+                  "2567": "CSE 123",
+                  "2568": "CSE 143",
+                  "2569": "CSE 332",
+                  "2570": "CSE 351",
+                  "2571": "CSE 332",
+                  "2572": "CSE 351",
+                  "2573": "CSE 331",
+                  "2574": "CSE 332",
+                  "2575": "CSE 373",
+                  "2576": "CSE 123",
+                  "2577": "CSE 143",
+                  "2580": "CSE 163",
+                  "2581": "CSE 373",
+                  "2582": "CSE 123",
+                  "2583": "CSE 143",
+                  "2586": "CSE 163",
+                  "2587": "CSE 373",
+                  "2588": "CSE 143",
+                  "2591": "CSE 123",
+                  "2592": "CSE 160",
+                  "2593": "CSE 163",
+                  "2605": "CSE 373",
+                  "2606": "CSE 312",
+                  "2607": "CSE 332",
+                  "2608": "CSE 312",
+                  "2609": "CSE 332",
+                  "2612": "CSE 312",
+                  "2613": "CSE 332",
+                  "2614": "CSE 331",
+                  "2615": "CSE 332",
+                  "2616": "CSE 312",
+                  "2617": "CSE 312",
+                  "2618": "CSE 332",
+                  "2619": "CSE 440",
+                  "2620": "CSE 332",
+                  "2621": "CSE 332",
+                  "2622": "CSE 344",
+                  "2623": "CSE 414",
+                  "2624": "CSE 332",
+                  "2631": "CSE 312",
+                  "2632": "CSE 312",
+                  "2633": "CSE 332",
+                  "2634": "CSE 351",
+                  "2635": "CSE 332",
+                  "2636": "CSE 333",
+                  "2637": "CSE 332",
+                  "2638": "CSE 333",
+                  "2639": "CSE 332",
+                  "2640": "CSE 333",
+                  "2641": "CSE 332",
+                  "2642": "CSE 351",
+                  "2643": "CSE 331",
+                  "2644": "CSE 352",
+                  "2645": "CSE 333",
+                  "2646": "CSE 332",
+                  "2647": "CSE 333",
+                  "2648": "CSE 332",
+                  "2649": "CSE 458",
+                  "2650": "CSE 458",
+                  "2651": "CSE 459",
+                  "2653": "CSE 332",
+                  "2655": "CSE 333",
+                  "2656": "CSE 352",
+                  "2657": "CSE 332",
+                  "2661": "CSE 369",
+                  "2662": "CSE 123",
+                  "2663": "CSE 143",
+                  "2666": "CSE 469",
+                  "2671": "CSE 311",
+                  "2672": "CSE 312",
+                  "2673": "CSE 332",
+                  "2674": "CSE 123",
+                  "2675": "CSE 143",
+                  "2679": "CSE 369",
+                  "2681": "CSE 474",
+                  "2685": "CSE 332",
+                  "2686": "CSE 312",
+                  "2687": "CSE 332",
+                  "2688": "CSE 351",
+                  "2689": "CSE 331",
+                  "2690": "CSE 333",
+                  "2691": "CSE 369",
+                  "2692": "CSE 332",
+                  "2693": "CSE 351",
+                  "2694": "CSE 331",
+                  "2695": "CSE 352",
+                  "2696": "CSE 332",
+                  "2697": "CSE 351",
+                  "2702": "CSE 311",
+                  "2709": "CSE 486",
+                  "2713": "CSE 486"
+              },
+              "pr_and_or": {
+                  "2497": " ",
+                  "2498": "O",
+                  "2499": "O",
+                  "2500": "O",
+                  "2501": "O",
+                  "2504": "O",
+                  "2505": " ",
+                  "2506": "O",
+                  "2507": "O",
+                  "2508": "O",
+                  "2509": "O",
+                  "2512": " ",
+                  "2514": "O",
+                  "2515": "O",
+                  "2522": " ",
+                  "2529": "O",
+                  "2532": " ",
+                  "2533": " ",
+                  "2534": " ",
+                  "2535": "O",
+                  "2538": " ",
+                  "2539": "O",
+                  "2540": "O",
+                  "2543": " ",
+                  "2544": "O",
+                  "2545": "O",
+                  "2548": "A",
+                  "2549": " ",
+                  "2550": "A",
+                  "2554": " ",
+                  "2555": "O",
+                  "2556": "O",
+                  "2559": "O",
+                  "2560": "O",
+                  "2566": "O",
+                  "2567": "O",
+                  "2568": " ",
+                  "2569": "A",
+                  "2570": "A",
+                  "2571": "A",
+                  "2572": " ",
+                  "2573": "A",
+                  "2574": " ",
+                  "2575": "A",
+                  "2576": "O",
+                  "2577": "O",
+                  "2580": "A",
+                  "2581": " ",
+                  "2582": "O",
+                  "2583": "O",
+                  "2586": "A",
+                  "2587": " ",
+                  "2588": "O",
+                  "2591": "O",
+                  "2592": "O",
+                  "2593": "A",
+                  "2605": " ",
+                  "2606": "A",
+                  "2607": " ",
+                  "2608": "A",
+                  "2609": "A",
+                  "2612": "A",
+                  "2613": " ",
+                  "2614": "A",
+                  "2615": "A",
+                  "2616": " ",
+                  "2617": " ",
+                  "2618": " ",
+                  "2619": " ",
+                  "2620": " ",
+                  "2621": "A",
+                  "2622": "O",
+                  "2623": " ",
+                  "2624": "A",
+                  "2631": " ",
+                  "2632": "O",
+                  "2633": " ",
+                  "2634": "A",
+                  "2635": "A",
+                  "2636": " ",
+                  "2637": "A",
+                  "2638": " ",
+                  "2639": "A",
+                  "2640": " ",
+                  "2641": "A",
+                  "2642": "A",
+                  "2643": "O",
+                  "2644": " ",
+                  "2645": "A",
+                  "2646": " ",
+                  "2647": "A",
+                  "2648": " ",
+                  "2649": " ",
+                  "2650": "A",
+                  "2651": " ",
+                  "2653": "A",
+                  "2655": " ",
+                  "2656": "O",
+                  "2657": " ",
+                  "2661": "A",
+                  "2662": "O",
+                  "2663": "O",
+                  "2666": "O",
+                  "2671": " ",
+                  "2672": "A",
+                  "2673": " ",
+                  "2674": "O",
+                  "2675": "O",
+                  "2679": "A",
+                  "2681": "O",
+                  "2685": " ",
+                  "2686": "A",
+                  "2687": "A",
+                  "2688": "A",
+                  "2689": "O",
+                  "2690": "O",
+                  "2691": " ",
+                  "2692": "A",
+                  "2693": "A",
+                  "2694": "O",
+                  "2695": " ",
+                  "2696": "A",
+                  "2697": " ",
+                  "2702": "A",
+                  "2709": " ",
+                  "2713": "A"
+              },
+              "pr_concurrency": {
+                  "2497": "N",
+                  "2498": "N",
+                  "2499": "N",
+                  "2500": "N",
+                  "2501": "N",
+                  "2504": "N",
+                  "2505": "N",
+                  "2506": "N",
+                  "2507": "N",
+                  "2508": "N",
+                  "2509": "N",
+                  "2512": "N",
+                  "2514": "N",
+                  "2515": "N",
+                  "2522": "N",
+                  "2529": "N",
+                  "2532": "N",
+                  "2533": "N",
+                  "2534": "N",
+                  "2535": "N",
+                  "2538": "N",
+                  "2539": "N",
+                  "2540": "N",
+                  "2543": "N",
+                  "2544": "N",
+                  "2545": "N",
+                  "2548": "N",
+                  "2549": "N",
+                  "2550": "N",
+                  "2554": "N",
+                  "2555": "N",
+                  "2556": "N",
+                  "2559": "N",
+                  "2560": "N",
+                  "2566": "N",
+                  "2567": "N",
+                  "2568": "N",
+                  "2569": "N",
+                  "2570": "N",
+                  "2571": "N",
+                  "2572": "N",
+                  "2573": "N",
+                  "2574": "N",
+                  "2575": "N",
+                  "2576": "N",
+                  "2577": "N",
+                  "2580": "N",
+                  "2581": "N",
+                  "2582": "N",
+                  "2583": "N",
+                  "2586": "N",
+                  "2587": "N",
+                  "2588": "N",
+                  "2591": "N",
+                  "2592": "N",
+                  "2593": "N",
+                  "2605": "N",
+                  "2606": "N",
+                  "2607": "N",
+                  "2608": "N",
+                  "2609": "N",
+                  "2612": "N",
+                  "2613": "N",
+                  "2614": "N",
+                  "2615": "N",
+                  "2616": "N",
+                  "2617": "N",
+                  "2618": "N",
+                  "2619": "N",
+                  "2620": "N",
+                  "2621": "N",
+                  "2622": "N",
+                  "2623": "N",
+                  "2624": "N",
+                  "2631": "N",
+                  "2632": "N",
+                  "2633": "N",
+                  "2634": "N",
+                  "2635": "N",
+                  "2636": "N",
+                  "2637": "N",
+                  "2638": "N",
+                  "2639": "N",
+                  "2640": "N",
+                  "2641": "N",
+                  "2642": "N",
+                  "2643": "N",
+                  "2644": "N",
+                  "2645": "N",
+                  "2646": "N",
+                  "2647": "N",
+                  "2648": "N",
+                  "2649": "N",
+                  "2650": "N",
+                  "2651": "N",
+                  "2653": "N",
+                  "2655": "N",
+                  "2656": "N",
+                  "2657": "N",
+                  "2661": "N",
+                  "2662": "N",
+                  "2663": "N",
+                  "2666": "N",
+                  "2671": "N",
+                  "2672": "N",
+                  "2673": "N",
+                  "2674": "N",
+                  "2675": "N",
+                  "2679": "N",
+                  "2681": "N",
+                  "2685": "N",
+                  "2686": "N",
+                  "2687": "N",
+                  "2688": "N",
+                  "2689": "N",
+                  "2690": "N",
+                  "2691": "N",
+                  "2692": "N",
+                  "2693": "N",
+                  "2694": "N",
+                  "2695": "N",
+                  "2696": "N",
+                  "2697": "N",
+                  "2702": "N",
+                  "2709": "N",
+                  "2713": "N"
+              },
+              "pr_cr_s": {
+                  "2497": "Y",
+                  "2498": "Y",
+                  "2499": "Y",
+                  "2500": "Y",
+                  "2501": "Y",
+                  "2504": "Y",
+                  "2505": "Y",
+                  "2506": "Y",
+                  "2507": "Y",
+                  "2508": "Y",
+                  "2509": "Y",
+                  "2512": "Y",
+                  "2514": "Y",
+                  "2515": "Y",
+                  "2522": "Y",
+                  "2529": "Y",
+                  "2532": "Y",
+                  "2533": "Y",
+                  "2534": "Y",
+                  "2535": "Y",
+                  "2538": "Y",
+                  "2539": "Y",
+                  "2540": "Y",
+                  "2543": "Y",
+                  "2544": "Y",
+                  "2545": "Y",
+                  "2548": "Y",
+                  "2549": "Y",
+                  "2550": "Y",
+                  "2554": "Y",
+                  "2555": "Y",
+                  "2556": "Y",
+                  "2559": "Y",
+                  "2560": "Y",
+                  "2566": "Y",
+                  "2567": "Y",
+                  "2568": "Y",
+                  "2569": "Y",
+                  "2570": "Y",
+                  "2571": "Y",
+                  "2572": "Y",
+                  "2573": "Y",
+                  "2574": "Y",
+                  "2575": "Y",
+                  "2576": "Y",
+                  "2577": "Y",
+                  "2580": "Y",
+                  "2581": "Y",
+                  "2582": "Y",
+                  "2583": "Y",
+                  "2586": "Y",
+                  "2587": "Y",
+                  "2588": "Y",
+                  "2591": "Y",
+                  "2592": "Y",
+                  "2593": "Y",
+                  "2605": "Y",
+                  "2606": "Y",
+                  "2607": "Y",
+                  "2608": "Y",
+                  "2609": "Y",
+                  "2612": "Y",
+                  "2613": "Y",
+                  "2614": "Y",
+                  "2615": "Y",
+                  "2616": "Y",
+                  "2617": "Y",
+                  "2618": "Y",
+                  "2619": "Y",
+                  "2620": "Y",
+                  "2621": "Y",
+                  "2622": "Y",
+                  "2623": "Y",
+                  "2624": "Y",
+                  "2631": "Y",
+                  "2632": "Y",
+                  "2633": "Y",
+                  "2634": "Y",
+                  "2635": "Y",
+                  "2636": "Y",
+                  "2637": "Y",
+                  "2638": "Y",
+                  "2639": "Y",
+                  "2640": "Y",
+                  "2641": "Y",
+                  "2642": "Y",
+                  "2643": "Y",
+                  "2644": "Y",
+                  "2645": "Y",
+                  "2646": "Y",
+                  "2647": "Y",
+                  "2648": "Y",
+                  "2649": "Y",
+                  "2650": "Y",
+                  "2651": "Y",
+                  "2653": "Y",
+                  "2655": "Y",
+                  "2656": "Y",
+                  "2657": "Y",
+                  "2661": "Y",
+                  "2662": "Y",
+                  "2663": "Y",
+                  "2666": "Y",
+                  "2671": "Y",
+                  "2672": "Y",
+                  "2673": "Y",
+                  "2674": "Y",
+                  "2675": "Y",
+                  "2679": "Y",
+                  "2681": "Y",
+                  "2685": "Y",
+                  "2686": "Y",
+                  "2687": "Y",
+                  "2688": "Y",
+                  "2689": "Y",
+                  "2690": "Y",
+                  "2691": "Y",
+                  "2692": "Y",
+                  "2693": "Y",
+                  "2694": "Y",
+                  "2695": "Y",
+                  "2696": "Y",
+                  "2697": "Y",
+                  "2702": "Y",
+                  "2709": "Y",
+                  "2713": "Y"
+              },
+              "pr_grade_min": {
+                  "2497": "  ",
+                  "2498": "20",
+                  "2499": "20",
+                  "2500": "20",
+                  "2501": "20",
+                  "2504": "20",
+                  "2505": "20",
+                  "2506": "  ",
+                  "2507": "  ",
+                  "2508": "  ",
+                  "2509": "  ",
+                  "2512": "  ",
+                  "2514": "20",
+                  "2515": "20",
+                  "2522": "  ",
+                  "2529": "20",
+                  "2532": "20",
+                  "2533": "  ",
+                  "2534": "  ",
+                  "2535": "  ",
+                  "2538": "  ",
+                  "2539": "  ",
+                  "2540": "  ",
+                  "2543": "  ",
+                  "2544": "  ",
+                  "2545": "  ",
+                  "2548": "  ",
+                  "2549": "  ",
+                  "2550": "  ",
+                  "2554": "  ",
+                  "2555": "  ",
+                  "2556": "  ",
+                  "2559": "  ",
+                  "2560": "  ",
+                  "2566": "  ",
+                  "2567": "  ",
+                  "2568": "  ",
+                  "2569": "  ",
+                  "2570": "  ",
+                  "2571": "  ",
+                  "2572": "  ",
+                  "2573": "  ",
+                  "2574": "  ",
+                  "2575": "  ",
+                  "2576": "  ",
+                  "2577": "  ",
+                  "2580": "  ",
+                  "2581": "  ",
+                  "2582": "25",
+                  "2583": "25",
+                  "2586": "25",
+                  "2587": "  ",
+                  "2588": "  ",
+                  "2591": "  ",
+                  "2592": "  ",
+                  "2593": "  ",
+                  "2605": "  ",
+                  "2606": "  ",
+                  "2607": "  ",
+                  "2608": "  ",
+                  "2609": "  ",
+                  "2612": "  ",
+                  "2613": "  ",
+                  "2614": "  ",
+                  "2615": "  ",
+                  "2616": "  ",
+                  "2617": "  ",
+                  "2618": "  ",
+                  "2619": "  ",
+                  "2620": "  ",
+                  "2621": "  ",
+                  "2622": "  ",
+                  "2623": "  ",
+                  "2624": "  ",
+                  "2631": "  ",
+                  "2632": "  ",
+                  "2633": "  ",
+                  "2634": "  ",
+                  "2635": "  ",
+                  "2636": "  ",
+                  "2637": "  ",
+                  "2638": "  ",
+                  "2639": "  ",
+                  "2640": "  ",
+                  "2641": "  ",
+                  "2642": "  ",
+                  "2643": "  ",
+                  "2644": "  ",
+                  "2645": "  ",
+                  "2646": "  ",
+                  "2647": "  ",
+                  "2648": "  ",
+                  "2649": "  ",
+                  "2650": "  ",
+                  "2651": "  ",
+                  "2653": "  ",
+                  "2655": "  ",
+                  "2656": "  ",
+                  "2657": "  ",
+                  "2661": "  ",
+                  "2662": "  ",
+                  "2663": "  ",
+                  "2666": "  ",
+                  "2671": "  ",
+                  "2672": "  ",
+                  "2673": "  ",
+                  "2674": "  ",
+                  "2675": "  ",
+                  "2679": "  ",
+                  "2681": "  ",
+                  "2685": "  ",
+                  "2686": "  ",
+                  "2687": "  ",
+                  "2688": "  ",
+                  "2689": "  ",
+                  "2690": "  ",
+                  "2691": "  ",
+                  "2692": "  ",
+                  "2693": "  ",
+                  "2694": "  ",
+                  "2695": "  ",
+                  "2696": "  ",
+                  "2697": "  ",
+                  "2702": "  ",
+                  "2709": "  ",
+                  "2713": "  "
+              },
+              "pr_group_no": {
+                  "2497": 1,
+                  "2498": 1,
+                  "2499": 1,
+                  "2500": 1,
+                  "2501": 1,
+                  "2504": 1,
+                  "2505": 1,
+                  "2506": 1,
+                  "2507": 1,
+                  "2508": 1,
+                  "2509": 1,
+                  "2512": 1,
+                  "2514": 1,
+                  "2515": 1,
+                  "2522": 1,
+                  "2529": 1,
+                  "2532": 1,
+                  "2533": 1,
+                  "2534": 1,
+                  "2535": 1,
+                  "2538": 1,
+                  "2539": 1,
+                  "2540": 1,
+                  "2543": 1,
+                  "2544": 1,
+                  "2545": 1,
+                  "2548": 1,
+                  "2549": 2,
+                  "2550": 1,
+                  "2554": 2,
+                  "2555": 1,
+                  "2556": 1,
+                  "2559": 1,
+                  "2560": 1,
+                  "2566": 1,
+                  "2567": 1,
+                  "2568": 1,
+                  "2569": 1,
+                  "2570": 1,
+                  "2571": 1,
+                  "2572": 1,
+                  "2573": 1,
+                  "2574": 2,
+                  "2575": 1,
+                  "2576": 1,
+                  "2577": 1,
+                  "2580": 1,
+                  "2581": 1,
+                  "2582": 1,
+                  "2583": 1,
+                  "2586": 1,
+                  "2587": 1,
+                  "2588": 1,
+                  "2591": 1,
+                  "2592": 1,
+                  "2593": 1,
+                  "2605": 1,
+                  "2606": 1,
+                  "2607": 1,
+                  "2608": 1,
+                  "2609": 2,
+                  "2612": 1,
+                  "2613": 1,
+                  "2614": 1,
+                  "2615": 1,
+                  "2616": 1,
+                  "2617": 1,
+                  "2618": 1,
+                  "2619": 1,
+                  "2620": 1,
+                  "2621": 1,
+                  "2622": 2,
+                  "2623": 2,
+                  "2624": 1,
+                  "2631": 3,
+                  "2632": 1,
+                  "2633": 1,
+                  "2634": 1,
+                  "2635": 1,
+                  "2636": 1,
+                  "2637": 1,
+                  "2638": 1,
+                  "2639": 1,
+                  "2640": 1,
+                  "2641": 1,
+                  "2642": 1,
+                  "2643": 2,
+                  "2644": 2,
+                  "2645": 1,
+                  "2646": 1,
+                  "2647": 1,
+                  "2648": 1,
+                  "2649": 1,
+                  "2650": 1,
+                  "2651": 1,
+                  "2653": 1,
+                  "2655": 2,
+                  "2656": 1,
+                  "2657": 1,
+                  "2661": 1,
+                  "2662": 2,
+                  "2663": 2,
+                  "2666": 1,
+                  "2671": 2,
+                  "2672": 1,
+                  "2673": 1,
+                  "2674": 1,
+                  "2675": 1,
+                  "2679": 1,
+                  "2681": 2,
+                  "2685": 1,
+                  "2686": 1,
+                  "2687": 1,
+                  "2688": 1,
+                  "2689": 2,
+                  "2690": 2,
+                  "2691": 2,
+                  "2692": 1,
+                  "2693": 2,
+                  "2694": 3,
+                  "2695": 3,
+                  "2696": 1,
+                  "2697": 1,
+                  "2702": 1,
+                  "2709": 1,
+                  "2713": 1
+              },
+              "pr_seq_no": {
+                  "2497": 120,
+                  "2498": 100,
+                  "2499": 110,
+                  "2500": 120,
+                  "2501": 130,
+                  "2504": 160,
+                  "2505": 170,
+                  "2506": 100,
+                  "2507": 110,
+                  "2508": 120,
+                  "2509": 130,
+                  "2512": 160,
+                  "2514": 100,
+                  "2515": 110,
+                  "2522": 100,
+                  "2529": 100,
+                  "2532": 130,
+                  "2533": 100,
+                  "2534": 100,
+                  "2535": 100,
+                  "2538": 130,
+                  "2539": 100,
+                  "2540": 110,
+                  "2543": 100,
+                  "2544": 100,
+                  "2545": 110,
+                  "2548": 100,
+                  "2549": 110,
+                  "2550": 100,
+                  "2554": 130,
+                  "2555": 100,
+                  "2556": 110,
+                  "2559": 100,
+                  "2560": 110,
+                  "2566": 100,
+                  "2567": 110,
+                  "2568": 120,
+                  "2569": 100,
+                  "2570": 110,
+                  "2571": 100,
+                  "2572": 110,
+                  "2573": 100,
+                  "2574": 110,
+                  "2575": 100,
+                  "2576": 100,
+                  "2577": 110,
+                  "2580": 140,
+                  "2581": 100,
+                  "2582": 100,
+                  "2583": 110,
+                  "2586": 140,
+                  "2587": 100,
+                  "2588": 100,
+                  "2591": 130,
+                  "2592": 140,
+                  "2593": 150,
+                  "2605": 100,
+                  "2606": 100,
+                  "2607": 110,
+                  "2608": 100,
+                  "2609": 110,
+                  "2612": 100,
+                  "2613": 110,
+                  "2614": 100,
+                  "2615": 110,
+                  "2616": 120,
+                  "2617": 100,
+                  "2618": 100,
+                  "2619": 100,
+                  "2620": 100,
+                  "2621": 100,
+                  "2622": 110,
+                  "2623": 120,
+                  "2624": 100,
+                  "2631": 170,
+                  "2632": 100,
+                  "2633": 110,
+                  "2634": 100,
+                  "2635": 110,
+                  "2636": 120,
+                  "2637": 100,
+                  "2638": 110,
+                  "2639": 100,
+                  "2640": 110,
+                  "2641": 100,
+                  "2642": 110,
+                  "2643": 120,
+                  "2644": 130,
+                  "2645": 100,
+                  "2646": 110,
+                  "2647": 100,
+                  "2648": 110,
+                  "2649": 100,
+                  "2650": 100,
+                  "2651": 110,
+                  "2653": 110,
+                  "2655": 130,
+                  "2656": 100,
+                  "2657": 130,
+                  "2661": 110,
+                  "2662": 120,
+                  "2663": 130,
+                  "2666": 100,
+                  "2671": 130,
+                  "2672": 100,
+                  "2673": 110,
+                  "2674": 100,
+                  "2675": 110,
+                  "2679": 110,
+                  "2681": 130,
+                  "2685": 100,
+                  "2686": 100,
+                  "2687": 110,
+                  "2688": 120,
+                  "2689": 130,
+                  "2690": 140,
+                  "2691": 150,
+                  "2692": 100,
+                  "2693": 110,
+                  "2694": 120,
+                  "2695": 130,
+                  "2696": 100,
+                  "2697": 110,
+                  "2702": 140,
+                  "2709": 130,
+                  "2713": 130
+              },
+              "to": {
+                  "2497": "CSE 143",
+                  "2498": "CSE 154",
+                  "2499": "CSE 154",
+                  "2500": "CSE 154",
+                  "2501": "CSE 154",
+                  "2504": "CSE 154",
+                  "2505": "CSE 154",
+                  "2506": "CSE 163",
+                  "2507": "CSE 163",
+                  "2508": "CSE 163",
+                  "2509": "CSE 163",
+                  "2512": "CSE 163",
+                  "2514": "CSE 311",
+                  "2515": "CSE 311",
+                  "2522": "CSE 312",
+                  "2529": "CSE 331",
+                  "2532": "CSE 331",
+                  "2533": "CSE 332",
+                  "2534": "CSE 333",
+                  "2535": "CSE 340",
+                  "2538": "CSE 340",
+                  "2539": "CSE 341",
+                  "2540": "CSE 341",
+                  "2543": "CSE 344",
+                  "2544": "CSE 351",
+                  "2545": "CSE 351",
+                  "2548": "CSE 352",
+                  "2549": "CSE 352",
+                  "2550": "CSE 369",
+                  "2554": "CSE 371",
+                  "2555": "CSE 373",
+                  "2556": "CSE 373",
+                  "2559": "CSE 374",
+                  "2560": "CSE 374",
+                  "2566": "CSE 391",
+                  "2567": "CSE 391",
+                  "2568": "CSE 391",
+                  "2569": "CSE 401",
+                  "2570": "CSE 401",
+                  "2571": "CSE 402",
+                  "2572": "CSE 402",
+                  "2573": "CSE 403",
+                  "2574": "CSE 403",
+                  "2575": "CSE 410",
+                  "2576": "CSE 412",
+                  "2577": "CSE 412",
+                  "2580": "CSE 412",
+                  "2581": "CSE 413",
+                  "2582": "CSE 414",
+                  "2583": "CSE 414",
+                  "2586": "CSE 414",
+                  "2587": "CSE 415",
+                  "2588": "CSE 416",
+                  "2591": "CSE 416",
+                  "2592": "CSE 416",
+                  "2593": "CSE 416",
+                  "2605": "CSE 417",
+                  "2606": "CSE 421",
+                  "2607": "CSE 421",
+                  "2608": "CSE 422",
+                  "2609": "CSE 422",
+                  "2612": "CSE 427",
+                  "2613": "CSE 427",
+                  "2614": "CSE 428",
+                  "2615": "CSE 428",
+                  "2616": "CSE 428",
+                  "2617": "CSE 431",
+                  "2618": "CSE 440",
+                  "2619": "CSE 441",
+                  "2620": "CSE 442",
+                  "2621": "CSE 444",
+                  "2622": "CSE 444",
+                  "2623": "CSE 444",
+                  "2624": "CSE 446",
+                  "2631": "CSE 446",
+                  "2632": "CSE 447",
+                  "2633": "CSE 447",
+                  "2634": "CSE 451",
+                  "2635": "CSE 451",
+                  "2636": "CSE 451",
+                  "2637": "CSE 452",
+                  "2638": "CSE 452",
+                  "2639": "CSE 453",
+                  "2640": "CSE 453",
+                  "2641": "CSE 454",
+                  "2642": "CSE 454",
+                  "2643": "CSE 454",
+                  "2644": "CSE 454",
+                  "2645": "CSE 455",
+                  "2646": "CSE 455",
+                  "2647": "CSE 457",
+                  "2648": "CSE 457",
+                  "2649": "CSE 459",
+                  "2650": "CSE 460",
+                  "2651": "CSE 460",
+                  "2653": "CSE 461",
+                  "2655": "CSE 461",
+                  "2656": "CSE 467",
+                  "2657": "CSE 467",
+                  "2661": "CSE 469",
+                  "2662": "CSE 469",
+                  "2663": "CSE 469",
+                  "2666": "CSE 470",
+                  "2671": "CSE 472",
+                  "2672": "CSE 473",
+                  "2673": "CSE 473",
+                  "2674": "CSE 474",
+                  "2675": "CSE 474",
+                  "2679": "CSE 475",
+                  "2681": "CSE 475",
+                  "2685": "CSE 478",
+                  "2686": "CSE 481",
+                  "2687": "CSE 481",
+                  "2688": "CSE 481",
+                  "2689": "CSE 481",
+                  "2690": "CSE 481",
+                  "2691": "CSE 481",
+                  "2692": "CSE 482",
+                  "2693": "CSE 482",
+                  "2694": "CSE 482",
+                  "2695": "CSE 482",
+                  "2696": "CSE 484",
+                  "2697": "CSE 484",
+                  "2702": "CSE 486",
+                  "2709": "CSE 487",
+                  "2713": "CSE 488"
+              }
+          },
+          "nodes": {
+              "course.level": {
+                  "0": 100,
+                  "1": 100,
+                  "10": 300,
+                  "11": 300,
+                  "12": 300,
+                  "13": 300,
+                  "14": 300,
+                  "15": 300,
+                  "16": 300,
+                  "17": 300,
+                  "18": 300,
+                  "19": 300,
+                  "2": 100,
+                  "20": 300,
+                  "21": 300,
+                  "22": 400,
+                  "23": 400,
+                  "24": 400,
+                  "25": 400,
+                  "26": 400,
+                  "27": 400,
+                  "28": 400,
+                  "29": 400,
+                  "3": 100,
+                  "30": 400,
+                  "31": 400,
+                  "32": 400,
+                  "33": 400,
+                  "34": 400,
+                  "35": 400,
+                  "36": 400,
+                  "37": 400,
+                  "38": 400,
+                  "39": 400,
+                  "4": 100,
+                  "40": 400,
+                  "41": 400,
+                  "42": 400,
+                  "43": 400,
+                  "44": 400,
+                  "45": 400,
+                  "46": 400,
+                  "47": 400,
+                  "48": 400,
+                  "49": 400,
+                  "5": 100,
+                  "50": 400,
+                  "51": 400,
+                  "52": 400,
+                  "53": 400,
+                  "54": 400,
+                  "55": 400,
+                  "56": 400,
+                  "57": 400,
+                  "58": 400,
+                  "59": 400,
+                  "6": 100,
+                  "60": 400,
+                  "61": 400,
+                  "62": 400,
+                  "63": 400,
+                  "64": 400,
+                  "65": 400,
+                  "66": 400,
+                  "7": 300,
+                  "8": 300,
+                  "9": 300
+              },
+              "course_branch": null,
+              "course_cat_omit": {
+                  "0": false,
+                  "1": false,
+                  "10": false,
+                  "11": false,
+                  "12": false,
+                  "13": false,
+                  "14": false,
+                  "15": false,
+                  "16": false,
+                  "17": false,
+                  "18": false,
+                  "19": false,
+                  "2": false,
+                  "20": false,
+                  "21": false,
+                  "22": false,
+                  "23": false,
+                  "24": false,
+                  "25": false,
+                  "26": false,
+                  "27": false,
+                  "28": false,
+                  "29": false,
+                  "3": false,
+                  "30": false,
+                  "31": false,
+                  "32": false,
+                  "33": false,
+                  "34": false,
+                  "35": false,
+                  "36": false,
+                  "37": false,
+                  "38": false,
+                  "39": false,
+                  "4": false,
+                  "40": false,
+                  "41": false,
+                  "42": false,
+                  "43": false,
+                  "44": false,
+                  "45": false,
+                  "46": false,
+                  "47": false,
+                  "48": false,
+                  "49": false,
+                  "5": false,
+                  "50": false,
+                  "51": false,
+                  "52": false,
+                  "53": false,
+                  "54": false,
+                  "55": false,
+                  "56": false,
+                  "57": false,
+                  "58": false,
+                  "59": false,
+                  "6": false,
+                  "60": false,
+                  "61": false,
+                  "62": false,
+                  "63": false,
+                  "64": false,
+                  "65": false,
+                  "66": false,
+                  "7": false,
+                  "8": false,
+                  "9": false
+              },
+              "course_college": {
+                  "0": "J",
+                  "1": "J",
+                  "10": "J",
+                  "11": "J",
+                  "12": "J",
+                  "13": "J",
+                  "14": "J",
+                  "15": "J",
+                  "16": "J",
+                  "17": "J",
+                  "18": "J",
+                  "19": "J",
+                  "2": "J",
+                  "20": "J",
+                  "21": "J",
+                  "22": "J",
+                  "23": "J",
+                  "24": "J",
+                  "25": "J",
+                  "26": "J",
+                  "27": "J",
+                  "28": "J",
+                  "29": "J",
+                  "3": "J",
+                  "30": "J",
+                  "31": "J",
+                  "32": "J",
+                  "33": "J",
+                  "34": "J",
+                  "35": "J",
+                  "36": "J",
+                  "37": "J",
+                  "38": "J",
+                  "39": "J",
+                  "4": "J",
+                  "40": "J",
+                  "41": "J",
+                  "42": "J",
+                  "43": "J",
+                  "44": "J",
+                  "45": "J",
+                  "46": "J",
+                  "47": "J",
+                  "48": "J",
+                  "49": "J",
+                  "5": "J",
+                  "50": "J",
+                  "51": "J",
+                  "52": "J",
+                  "53": "J",
+                  "54": "J",
+                  "55": "J",
+                  "56": "J",
+                  "57": "J",
+                  "58": "J",
+                  "59": "J",
+                  "6": "J",
+                  "60": "J",
+                  "61": "J",
+                  "62": "J",
+                  "63": "J",
+                  "64": "J",
+                  "65": "J",
+                  "66": "J",
+                  "7": "J",
+                  "8": "J",
+                  "9": "J"
+              },
+              "course_number": {
+                  "0": 122,
+                  "1": 123,
+                  "10": 332,
+                  "11": 333,
+                  "12": 340,
+                  "13": 341,
+                  "14": 344,
+                  "15": 351,
+                  "16": 352,
+                  "17": 369,
+                  "18": 371,
+                  "19": 373,
+                  "2": 142,
+                  "20": 374,
+                  "21": 391,
+                  "22": 401,
+                  "23": 402,
+                  "24": 403,
+                  "25": 410,
+                  "26": 412,
+                  "27": 413,
+                  "28": 414,
+                  "29": 415,
+                  "3": 143,
+                  "30": 416,
+                  "31": 417,
+                  "32": 421,
+                  "33": 422,
+                  "34": 427,
+                  "35": 428,
+                  "36": 431,
+                  "37": 440,
+                  "38": 441,
+                  "39": 442,
+                  "4": 154,
+                  "40": 444,
+                  "41": 446,
+                  "42": 447,
+                  "43": 451,
+                  "44": 452,
+                  "45": 453,
+                  "46": 454,
+                  "47": 455,
+                  "48": 457,
+                  "49": 458,
+                  "5": 160,
+                  "50": 459,
+                  "51": 460,
+                  "52": 461,
+                  "53": 467,
+                  "54": 469,
+                  "55": 470,
+                  "56": 472,
+                  "57": 473,
+                  "58": 474,
+                  "59": 475,
+                  "6": 163,
+                  "60": 478,
+                  "61": 481,
+                  "62": 482,
+                  "63": 484,
+                  "64": 486,
+                  "65": 487,
+                  "66": 488,
+                  "7": 311,
+                  "8": 312,
+                  "9": 331
+              },
+              "course_title": {
+                  "0": "Introduction to Computer Programming II",
+                  "1": "Introduction to Computer Programming III",
+                  "10": "Data Structures and Parallelism",
+                  "11": "Systems Programming",
+                  "12": "Interaction Programming",
+                  "13": "Programming Languages",
+                  "14": "Introduction to Data Management",
+                  "15": "The Hardware/Software Interface",
+                  "16": "Hardware Design and Implementation",
+                  "17": "Introduction to Digital Design",
+                  "18": "Design of Digital Circuits and Systems",
+                  "19": "Data Structures and Algorithms",
+                  "2": "Computer Programming I",
+                  "20": "Intermediate Programming Concepts and Tools",
+                  "21": "System and Software Tools",
+                  "22": "Introduction to Compiler Construction",
+                  "23": "Design and Implementation of Domain-Specific Languages",
+                  "24": "Software Engineering",
+                  "25": "Computer Systems",
+                  "26": "Introduction to Data Visualization",
+                  "27": "Programming Languages and Their Implementation",
+                  "28": "Introduction to Database Systems",
+                  "29": "Introduction to Artificial Intelligence",
+                  "3": "Computer Programming II",
+                  "30": "Introduction to Machine Learning",
+                  "31": "Algorithms and Computational Complexity",
+                  "32": "Introduction to Algorithms",
+                  "33": "Toolkit for Modern Algorithms",
+                  "34": "Computational Biology",
+                  "35": "Computational Biology Capstone",
+                  "36": "Introduction to Theory of Computation",
+                  "37": "Introduction to HCI: User Interface Design, Prototyping, and Evaluation",
+                  "38": "Advanced HCI: Advanced User Interface Design, Prototyping, and Evaluation",
+                  "39": "Data Visualization",
+                  "4": "Web Programming",
+                  "40": "Database Systems Internals",
+                  "41": "Machine Learning",
+                  "42": "Natural Language Processing",
+                  "43": "Introduction to Operating Systems",
+                  "44": "Introduction to Distributed Systems",
+                  "45": "Datacenter Systems",
+                  "46": "Advanced Internet and Web Services",
+                  "47": "Computer Vision",
+                  "48": "Computer Graphics",
+                  "49": "Computer Animation",
+                  "5": "Data Programming",
+                  "50": "Pre-Production for Collaborative Animation",
+                  "51": "Animation Capstone",
+                  "52": "Introduction to Computer-Communication Networks",
+                  "53": "Advanced Digital Design",
+                  "54": "Computer Architecture I",
+                  "55": "Computer Architecture II",
+                  "56": "Introduction to Computational Linguistics",
+                  "57": "Introduction to Artificial Intelligence",
+                  "58": "Introduction to Embedded Systems",
+                  "59": "Embedded Systems Capstone",
+                  "6": "Intermediate Data Programming",
+                  "60": "Autonomous Robotics",
+                  "61": "Capstone Software Design",
+                  "62": "Capstone Software Design to Empower Underserved Populations",
+                  "63": "Computer Security",
+                  "64": "Introduction to Synthetic Biology",
+                  "65": "Advanced Systems and Synthetic Biology",
+                  "66": "Laboratory Methods in Synthetic Biology",
+                  "7": "Foundations of Computing I",
+                  "8": "Foundations of Computing II",
+                  "9": "Software Design and Implementation"
+              },
+              "department_abbrev": {
+                  "0": "CSE",
+                  "1": "CSE",
+                  "10": "CSE",
+                  "11": "CSE",
+                  "12": "CSE",
+                  "13": "CSE",
+                  "14": "CSE",
+                  "15": "CSE",
+                  "16": "CSE",
+                  "17": "CSE",
+                  "18": "CSE",
+                  "19": "CSE",
+                  "2": "CSE",
+                  "20": "CSE",
+                  "21": "CSE",
+                  "22": "CSE",
+                  "23": "CSE",
+                  "24": "CSE",
+                  "25": "CSE",
+                  "26": "CSE",
+                  "27": "CSE",
+                  "28": "CSE",
+                  "29": "CSE",
+                  "3": "CSE",
+                  "30": "CSE",
+                  "31": "CSE",
+                  "32": "CSE",
+                  "33": "CSE",
+                  "34": "CSE",
+                  "35": "CSE",
+                  "36": "CSE",
+                  "37": "CSE",
+                  "38": "CSE",
+                  "39": "CSE",
+                  "4": "CSE",
+                  "40": "CSE",
+                  "41": "CSE",
+                  "42": "CSE",
+                  "43": "CSE",
+                  "44": "CSE",
+                  "45": "CSE",
+                  "46": "CSE",
+                  "47": "CSE",
+                  "48": "CSE",
+                  "49": "CSE",
+                  "5": "CSE",
+                  "50": "CSE",
+                  "51": "CSE",
+                  "52": "CSE",
+                  "53": "CSE",
+                  "54": "CSE",
+                  "55": "CSE",
+                  "56": "CSE",
+                  "57": "CSE",
+                  "58": "CSE",
+                  "59": "CSE",
+                  "6": "CSE",
+                  "60": "CSE",
+                  "61": "CSE",
+                  "62": "CSE",
+                  "63": "CSE",
+                  "64": "CSE",
+                  "65": "CSE",
+                  "66": "CSE",
+                  "7": "CSE",
+                  "8": "CSE",
+                  "9": "CSE"
+              },
+              "diversity_crs": null,
+              "english_comp": null,
+              "indiv_society": null,
+              "natural_world": null,
+              "qsr": null,
+              "vis_lit_perf_arts": null,
+              "writing_crs": null
+          },
+          "options": {
+              "autoResize": true,
+              "edges": {
+                  "arrows": "to",
+                  "color": "lightgray",
+                  "smooth": {
+                      "forceDirection": "horizontal",
+                      "roundness": 1,
+                      "type": "cubicBezier"
+                  }
+              },
+              "height": "500px",
+              "interaction": {
+                  "dragNodes": false
+              },
+              "layout": {
+                  "hierarchical": {
+                      "blockShifting": false,
+                      "direction": "LR",
+                      "edgeMinimization": false,
+                      "nodeSpacing": 80,
+                      "sortMethod": "directed"
+                  }
+              },
+              "nodes": {
+                  "borderWidth": 1,
+                  "borderWidthSelected": 1,
+                  "color": {
+                      "background": "white",
+                      "border": "lightgray",
+                      "highlight": {
+                          "background": "#976CE1",
+                          "border": "#4d307f"
+                      }
+                  },
+                  "shape": "box"
+              },
+              "physics": false
+          }
+      }
+  }
+}

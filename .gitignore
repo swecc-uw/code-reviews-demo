@@ -1,0 +1,7 @@
+# java stuff
+*.class
+
+# python stuff
+*.pyc
+
+data/
