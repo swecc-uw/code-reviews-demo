@@ -12,48 +12,10 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-record KVEntry(String key, String value) {
-  private static final String DELIMITER = "†";
-
-  public KVEntry {
-    Objects.requireNonNull(key, "key cannot be null");
-    Objects.requireNonNull(value, "value cannot be null");
-    if (key.contains(DELIMITER)) {
-      throw new IllegalArgumentException("Key cannot contain delimiter: " + DELIMITER);
-    }
-    if (value.contains(DELIMITER)) {
-      throw new IllegalArgumentException("Value cannot contain delimiter: " + DELIMITER);
-    }
-  }
-
-  /**
-   * Parses a line into a KVEntry.
-   *
-   * @param line the line to parse
-   * @return the parsed entry or empty if invalid
-   */
-  public static Optional<KVEntry> fromString(String line) {
-    try {
-      String[] parts = line.split(DELIMITER, 2);
-      if (parts.length != 2) {
-        return Optional.empty();
-      }
-      return Optional.of(new KVEntry(parts[0], parts[1]));
-    } catch (Exception e) {
-      return Optional.empty();
-    }
-  }
-
-  @Override
-  public String toString() {
-    return key + DELIMITER + value;
-  }
-}
-
 /**
  * A very bad key-value store implementation using a file.
  */
-public class KVFileDAO implements KVDAO<String, String, KVEntry>, AutoCloseable {
+public class KVFileDAO implements KVDAO<String, String, KVFileEntry>, AutoCloseable {
   private final Path filePath;
   private final FileChannel channel;
   private volatile boolean closed = false;
@@ -95,9 +57,9 @@ public class KVFileDAO implements KVDAO<String, String, KVEntry>, AutoCloseable 
    * @return list of all entries
    * @throws IOException if an I/O error occurs
    */
-  private List<KVEntry> readAllEntries() throws IOException {
+  private List<KVFileEntry> readAllEntries() throws IOException {
     return Files.readAllLines(filePath).stream()
-        .map(KVEntry::fromString)
+        .map(KVFileEntry::fromString)
         .filter(Optional::isPresent)
         .map(Optional::get)
         .collect(Collectors.toList());
@@ -109,19 +71,19 @@ public class KVFileDAO implements KVDAO<String, String, KVEntry>, AutoCloseable 
    * @param entries the entries to write
    * @throws IOException if an I/O error occurs
    */
-  private void writeAllEntries(List<KVEntry> entries) throws IOException {
+  private void writeAllEntries(List<KVFileEntry> entries) throws IOException {
     Files.write(filePath,
         entries.stream()
-            .map(KVEntry::toString)
+            .map(KVFileEntry::toString)
             .collect(Collectors.toList()),
         StandardOpenOption.TRUNCATE_EXISTING);
   }
 
   @Override
-  public void batchPut(KVEntry[] items) {
+  public void batchPut(KVFileEntry[] items) {
     try {
       withLock(() -> {
-        List<KVEntry> entries = readAllEntries();
+        List<KVFileEntry> entries = readAllEntries();
 
         // Remove existing entries with same keys
         entries.removeIf(existing -> Arrays.stream(items)
@@ -140,19 +102,19 @@ public class KVFileDAO implements KVDAO<String, String, KVEntry>, AutoCloseable 
 
   @Override
   public void put(String key, String value) {
-    batchPut(new KVEntry[] { new KVEntry(key, value) });
+    batchPut(new KVFileEntry[] { new KVFileEntry(key, value) });
   }
 
   @Override
   public String[] batchGet(String[] keys) {
     try {
       return withLock(() -> {
-        List<KVEntry> entries = readAllEntries();
+        List<KVFileEntry> entries = readAllEntries();
         return Arrays.stream(keys)
             .map(key -> entries.stream()
                 .filter(entry -> entry.key().equals(key))
                 .findFirst()
-                .map(KVEntry::value)
+                .map(KVFileEntry::value)
                 .orElse(null))
             .toArray(String[]::new);
       });
@@ -171,14 +133,14 @@ public class KVFileDAO implements KVDAO<String, String, KVEntry>, AutoCloseable 
   public String[] batchDelete(String[] keys) {
     try {
       return withLock(() -> {
-        List<KVEntry> entries = readAllEntries();
+        List<KVFileEntry> entries = readAllEntries();
 
         // Find values to return
         String[] values = Arrays.stream(keys)
             .map(key -> entries.stream()
                 .filter(entry -> entry.key().equals(key))
                 .findFirst()
-                .map(KVEntry::value)
+                .map(KVFileEntry::value)
                 .orElse(null))
             .toArray(String[]::new);
 
